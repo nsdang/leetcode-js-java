@@ -10,7 +10,7 @@
  * @param {number} n
  * @return {ListNode}
  */
- var removeNthFromEnd = function(head, n) {
+var removeNthFromEnd = function(head, n) {
     let temp = head;
     let hashMap = new Map();
     let i = 1;
